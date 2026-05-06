@@ -123,3 +123,38 @@
 2026-05-06 07:07:07.838 [info] ccreq:01dc8e24.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3486ms | [panel/editAgent]
 2026-05-06 07:07:13.453 [info] [messagesAPI] message 0 returned. finish reason: [stop]
 2026-05-06 07:07:13.455 [info] ccreq:c48ba5d0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3464ms | [panel/editAgent]
+2026-05-06 07:07:19.658 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:07:19.662 [info] ccreq:4e5841e0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3729ms | [panel/editAgent]
+2026-05-06 07:07:25.341 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 07:07:25.827 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:07:25.830 [info] ccreq:1603d1b0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4268ms | [panel/editAgent]
+2026-05-06 07:07:25.861 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-06 07:07:26.600 [info] message 0 returned. finish reason: [stop]
+2026-05-06 07:07:26.602 [info] request done: requestId: [0fbc20ed-95b8-458a-8806-c2c1565d707d] model deployment ID: []
+2026-05-06 07:07:26.603 [info] ccreq:757e3864.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1223ms | [copilotLanguageModelWrapper]
+2026-05-06 07:09:24.397 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.782957999967039ms
+2026-05-06 07:09:32.507 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.47274999995716ms
+2026-05-06 07:10:57.787 [info] [CopilotCLIChatSessionContentProvider] listSessions took 10.415125000057742ms
+2026-05-06 07:11:08.385 [info] [CopilotCLIChatSessionContentProvider] listSessions took 10.841374999959953ms
+2026-05-06 07:11:14.788 [info] Fetched model metadata in 916ms 74cc47c0-998b-438a-a338-acae6fbdc561
+2026-05-06 07:11:15.058 [info] ccreq:dada07bf.copilotmd | markdown
+2026-05-06 07:11:19.366 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:11:19.369 [info] ccreq:b60d28ff.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4124ms | [panel/editAgent]
+2026-05-06 07:11:40.067 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 07:11:41.403 [info] message 0 returned. finish reason: [stop]
+2026-05-06 07:11:41.405 [info] request done: requestId: [5de70f1f-07ac-43b5-bdea-11b521c80152] model deployment ID: []
+2026-05-06 07:11:41.406 [info] ccreq:fbf79fdc.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1300ms | [copilotLanguageModelWrapper]
+2026-05-06 07:11:42.952 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:11:42.958 [info] ccreq:117fa4a8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6114ms | [panel/editAgent]
+2026-05-06 07:11:43.001 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-06 07:12:50.891 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.93529200006742ms
+2026-05-06 07:13:03.844 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:13:03.847 [info] ccreq:f2d4d528.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4354ms | [panel/editAgent]
+2026-05-06 07:13:10.766 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 07:13:10.869 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:13:10.877 [info] ccreq:aa77bce1.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4669ms | [panel/editAgent]
+2026-05-06 07:13:11.445 [info] message 0 returned. finish reason: [stop]
+2026-05-06 07:13:11.448 [info] request done: requestId: [6cbe3855-8402-4e72-8404-cecb5a4a7669] model deployment ID: []
+2026-05-06 07:13:11.448 [info] ccreq:f7ee3573.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 642ms | [copilotLanguageModelWrapper]
+2026-05-06 07:13:22.159 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:13:22.166 [info] ccreq:53cbff4f.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5390ms | [panel/editAgent]
