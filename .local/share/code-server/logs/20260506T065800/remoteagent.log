@@ -1,0 +1,15 @@
+2026-05-06 06:58:00.684 [info] 
+
+
+
+
+2026-05-06 06:58:00.689 [info] Extension host agent started.
+2026-05-06 06:58:00.699 [info] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+2026-05-06 06:58:00.746 [error] [192.168.65.1][5a4f5d85][ExtensionHostConnection] Unknown reconnection token (never seen).
+2026-05-06 06:58:00.768 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+2026-05-06 06:58:00.819 [error] [192.168.65.1][001af984][ManagementConnection] Unknown reconnection token (never seen).
+2026-05-06 06:58:08.361 [info] [192.168.65.1][e13537fe][ManagementConnection] New connection established.
+2026-05-06 06:58:08.654 [info] [192.168.65.1][73614854][ExtensionHostConnection] New connection established.
+2026-05-06 06:58:08.696 [info] [192.168.65.1][73614854][ExtensionHostConnection] <535> Launched Extension Host Process.
+2026-05-06 06:58:08.830 [info] [192.168.65.1][73614854][ExtensionHostConnection] <535> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+

@@ -1,0 +1,4 @@
+[06:58:00] [192.168.65.1][5a4f5d85][ExtensionHostConnection] Unknown reconnection token (never seen).
+[06:58:00] [192.168.65.1][001af984][ManagementConnection] Unknown reconnection token (never seen).
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js

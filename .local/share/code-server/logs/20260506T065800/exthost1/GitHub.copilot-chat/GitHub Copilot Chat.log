@@ -1,0 +1,125 @@
+2026-05-06 06:58:09.755 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-05-06 06:58:09.783 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-05-06 06:58:09.783 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-05-06 06:58:09.783 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-05-06 06:58:09.841 [warning] GitHub login failed
+2026-05-06 06:58:09.841 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: false
+2026-05-06 06:58:09.973 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-05-06 06:58:10.243 [info] [CopilotCLI] MCP server started. Lock file: /home/coder/.copilot/ide/9bed5f99-e272-4c3a-a736-d9dc0552caef.lock
+2026-05-06 06:58:10.243 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-7FDjIV/mcp.sock#%2Fmcp
+2026-05-06 06:58:10.256 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-05-06 06:58:10.261 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.977249999999913ms
+2026-05-06 06:58:10.305 [warning] GitHub login failed
+2026-05-06 06:58:10.306 [error] PermissiveAuthRequiredError: Permissive authentication is required
+	at F3.getCopilotAgentModels (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1665:9696)
+	at async Promise.allSettled (index 1)
+	at async rv.provideChatSessionProviderOptions (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:2648:12072)
+	at async Sf.$provideChatSessionProviderOptions (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:529:40628)
+2026-05-06 06:58:10.314 [error] Error: GitHubLoginFailed
+	at sre._authShowWarnings (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1678:18535)
+	at async sre.getCopilotToken (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1678:16253)
+	at async lge.getCopilotToken (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1398:7787)
+	at async kL.waitForChatEnabled (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1502:2999)
+	at async kL.run (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1502:2887)
+	at async Pee.askToUpgradeAuthPermissions (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1502:2364): Failed to get copilot token
+2026-05-06 06:58:10.314 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2026-05-06 06:58:10.314 [info] [context keys] Setting context key: github.copilot.interactiveSession.gitHubLoginFailed
+2026-05-06 06:58:10.314 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-05-06 06:58:10.314 [error] Error: GitHubLoginFailed
+	at sre._authShowWarnings (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1678:18535)
+	at async sre.getCopilotToken (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1678:16253)
+	at async lge.getCopilotToken (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1398:7787)
+	at async Kte._getToken (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1645:8631)
+	at async r (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1645:8095)
+	at async Kte._registerEmbeddings (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1645:8592)
+	at async Promise.all (index 1)
+	at async Promise.allSettled (index 1)
+	at async JO.waitForActivationBlockers (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1164:7696)
+	at async /usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1164:8470
+	at async nbn (/usr/lib/code-server/lib/vscode/extensions/copilot/dist/extension.js:1164:8338)
+	at async Mb._activate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:501:15965)
+	at async Mb._waitForDepsThenActivate (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:501:15907)
+	at async Mb._initialize (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:501:15274)
+2026-05-06 06:58:10.314 [info] activationBlocker from 'languageModelAccess' took for 357ms
+2026-05-06 06:58:10.314 [error] [CopilotCLISession] Failed to fetch models: Error: Failed to get token for auth info
+2026-05-06 06:58:10.314 [error] [ClaudeCodeModels] Failed to fetch models: Error: GitHubLoginFailed
+2026-05-06 06:58:11.705 [info] Can't use the Electron fetcher in this environment.
+2026-05-06 06:58:11.705 [info] Using the Node fetch fetcher.
+2026-05-06 06:59:09.199 [info] Logged in as supachaibic-boop
+2026-05-06 06:59:09.849 [info] Got Copilot token for supachaibic-boop
+2026-05-06 06:59:09.849 [info] Copilot Chat: 0.45.0, VS Code: 1.117.0
+2026-05-06 06:59:10.551 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-05-06 06:59:10.551 [info] copilot token sku: free_limited_copilot
+2026-05-06 06:59:10.551 [info] ConversationFeature: Activating contributions
+2026-05-06 06:59:10.551 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-05-06 06:59:10.563 [info] Registering default platform agent...
+2026-05-06 06:59:10.563 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-05-06 06:59:10.563 [info] [code-referencing] Public code references are enabled.
+2026-05-06 06:59:10.563 [info] activationBlocker from 'conversationFeature' took for 60610ms
+2026-05-06 06:59:10.566 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-05-06 06:59:10.650 [info] [CopilotCLIChatSessionContentProvider] listSessions took 54.21483299999818ms
+2026-05-06 06:59:10.661 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.364166999999725ms
+2026-05-06 06:59:10.779 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-05-06 06:59:10.991 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-05-06 06:59:10.994 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-05-06 06:59:11.675 [info] Fetched model metadata in 1124ms b856282c-ee68-4ce3-8feb-8bc7673aee65
+2026-05-06 06:59:11.945 [info] Latest entry: ccreq:latest.copilotmd
+2026-05-06 06:59:11.946 [info] ccreq:14565917.copilotmd | markdown
+2026-05-06 06:59:16.336 [info] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:16.339 [info] request done: requestId: [3b89cb32-4b37-4121-8e20-4a57df050ea4] model deployment ID: []
+2026-05-06 06:59:16.340 [info] ccreq:6a43c2c0.copilotmd | success | gpt-4o-mini-2024-07-18 | 664ms | [title]
+2026-05-06 06:59:16.812 [info] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:16.816 [info] request done: requestId: [18509ab6-ed9b-493b-9a2f-61f8525eeaa3] model deployment ID: []
+2026-05-06 06:59:16.817 [info] ccreq:5865c768.copilotmd | success | gpt-4o-mini-2024-07-18 | 971ms | [progressMessages]
+2026-05-06 06:59:16.937 [info] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:16.939 [info] request done: requestId: [1126beaa-0f90-49c5-bfae-9a9bb851425c] model deployment ID: []
+2026-05-06 06:59:16.940 [info] ccreq:934cc97e.copilotmd | success | gpt-4o-mini-2024-07-18 | 1096ms | [progressMessages]
+2026-05-06 06:59:22.334 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 06:59:22.347 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:22.351 [info] ccreq:f83f0566.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 6377ms | [panel/editAgent]
+2026-05-06 06:59:23.105 [info] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:23.107 [info] request done: requestId: [505685f7-d21a-4966-aebe-bb99e3460ef9] model deployment ID: []
+2026-05-06 06:59:23.108 [info] ccreq:9dcdabe5.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 698ms | [copilotLanguageModelWrapper]
+2026-05-06 06:59:26.170 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 06:59:26.229 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:26.232 [info] ccreq:6d1bad41.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3798ms | [panel/editAgent]
+2026-05-06 06:59:26.879 [info] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:26.882 [info] request done: requestId: [94c334ea-d4df-46ef-85a1-cf1013730f11] model deployment ID: []
+2026-05-06 06:59:26.884 [info] ccreq:9de8cda7.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 679ms | [copilotLanguageModelWrapper]
+2026-05-06 06:59:29.259 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 06:59:29.265 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:29.268 [info] ccreq:1baa7fc5.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2947ms | [panel/editAgent]
+2026-05-06 06:59:29.279 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-06 06:59:29.963 [info] message 0 returned. finish reason: [stop]
+2026-05-06 06:59:29.965 [info] request done: requestId: [b2ee285e-a966-4d0b-828c-3ccbd5a259fc] model deployment ID: []
+2026-05-06 06:59:29.966 [info] ccreq:c6c8254e.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 673ms | [copilotLanguageModelWrapper]
+2026-05-06 07:00:39.339 [info] [CopilotCLIChatSessionContentProvider] listSessions took 7.216207999998005ms
+2026-05-06 07:01:26.339 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:01:26.342 [info] ccreq:f6a00fe3.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 9035ms | [panel/editAgent]
+2026-05-06 07:01:30.341 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 07:01:30.365 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:01:30.367 [info] ccreq:3df34415.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3944ms | [panel/editAgent]
+2026-05-06 07:01:30.374 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-06 07:01:31.085 [info] message 0 returned. finish reason: [stop]
+2026-05-06 07:01:31.088 [info] request done: requestId: [a1deed72-0ed9-419a-b65b-dc8d2b855f1f] model deployment ID: []
+2026-05-06 07:01:31.089 [info] ccreq:954c3b67.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 689ms | [copilotLanguageModelWrapper]
+2026-05-06 07:02:09.509 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13.512500000011642ms
+2026-05-06 07:02:39.073 [info] [CopilotCLIChatSessionContentProvider] listSessions took 10.944667000032496ms
+2026-05-06 07:04:01.797 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:04:01.802 [info] ccreq:b63cc994.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 23336ms | [panel/editAgent]
+2026-05-06 07:04:07.142 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-05-06 07:04:08.386 [info] message 0 returned. finish reason: [stop]
+2026-05-06 07:04:08.388 [info] request done: requestId: [0625e787-2631-4acb-8874-be266267e074] model deployment ID: []
+2026-05-06 07:04:08.389 [info] ccreq:8d821dd5.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1204ms | [copilotLanguageModelWrapper]
+2026-05-06 07:04:12.762 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:04:12.766 [info] ccreq:44bc816e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 10761ms | [panel/editAgent]
+2026-05-06 07:04:12.772 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-05-06 07:04:15.506 [info] [CopilotCLIChatSessionContentProvider] listSessions took 11.737292000034358ms
+2026-05-06 07:06:37.236 [info] [CopilotCLIChatSessionContentProvider] listSessions took 5.445542000001296ms
+2026-05-06 07:07:01.047 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:07:01.052 [info] ccreq:743f3ee7.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 14532ms | [panel/editAgent]
+2026-05-06 07:07:01.086 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-05-06 07:07:07.836 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:07:07.838 [info] ccreq:01dc8e24.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3486ms | [panel/editAgent]
+2026-05-06 07:07:13.453 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-05-06 07:07:13.455 [info] ccreq:c48ba5d0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3464ms | [panel/editAgent]
